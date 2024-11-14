@@ -19,7 +19,7 @@ plt.figure(figsize=(10, 5))
 plt.bar(['PC1', 'PC2'], pca.explained_variance_ratio_)
 plt.xlabel('Principal Components')
 plt.ylabel('Explained Variance Ratio')
-plt.title('Explained Variance Ratio by Principal Components')
+plt.title('Explained Variance Ratio by Principal Components') #each principal component show the captured variance
 plt.show()
 
 plt.subplot(1,2,1)
